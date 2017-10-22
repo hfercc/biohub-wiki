@@ -1,30 +1,7 @@
 ## Validation
 
-### Forum
-We check each function of our forum to assure that it works as we expected.
-
-+ **Watch**: After clicking the link "**Watch**", the number of watching users increased.
-    - Before: ![](images/validation/watch.png)
-    - After: ![](images/validation/watch-after.png)
-
-+ **Rate**: After clicking the link "**Rate**", a component designed for rating will appear beneath it. If brick rated by user, the link "**Rate**" will be hidden. The average score will be displayed in terms of stars.
-    - Not Rated: ![](images/validation/star-appear.png)
-    - Rated: ![](images/validation/after-rate.png)
-
-+ **Star**: The validation can be repeated in the same way.
-    - Not Starred: ![](images/validation/not-starred.png)
-    - Starred: ![](images/validation/starred.png)
-
-+ **Posting Experiences**: Posting experiences with pictures is a good test case for experiences module.
-![](images/validation/post-experience.png)
-The Markdown language has been parsed and the image uploaded inserted into the right place.The editor will compile the users' input whenever the content changes, providing real-time preview for better experience.
-
-+ **Experiences Displaying**:
-![](images/validation/experience-display.png)
-The experience posted just now has the same view as what we get in the editor. An unique key will be assigned to it for direct access.
-
-+ **Comments**:
-![](images/validation/leave-comment.png)
+### Unit Test
+Our project is deposited on github for better cooperation. So all pushed commits will be automatically tested by TravisCI shortly after being pushed so that we can see the result soon. Besides unit tests, ES Linter will help us find syntax errors and incongruous code style whenever files changed. These features guarantee our project run as we expected.
 
 ### BioSearch
 Type anything you want to learn about a part and press Enter, in less than one second you will get the results:
@@ -48,5 +25,13 @@ or add an `h:` filter to mark out the matched words:
 Multiple filters can also be combined to make complex query:
 
 ![](images/description/biosearch-combine.png)
+
+### Plugins
+
+#### ABACUS:
+ABACUS is a submodule of team USTC-Software-2016's project. ABACUS is firstly developed by professor Liu Haiyan, to enlarge the functions of Biopano. The de novo design of amino acid sequence to fold into desired structures is a way to reach a more thorough understanding of how amino acid sequences encode protein structures and to supply methods for protein engineering. To overcome limitations in current computational models, they developed a comprehensive statistical energy function for protein design with a new general strategy and verify that it can complement and rival current well-established models. They established an experimental approach which can be used to efficiently assess or improve the foldability of designed proteins. To prove it, they report four de novo proteins for different targets, all experimentally verified to the well-folded, solved solution structures for two being excellent agreement with respective design targets.[1]
+
+#### bioBLESS:
+bioBLESS is a based on team USTC-Software-2015's project with few adaptions made.
 
 
