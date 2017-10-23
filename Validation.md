@@ -1,7 +1,7 @@
 ## Validation
 
 ### Unit Test
-Our project is deposited on github for better cooperation. So all pushed commits will be automatically tested by TravisCI shortly after being pushed so that we can see the result soon. Besides unit tests, ES Linter will help us find syntax errors and incongruous code style whenever files changed. These features guarantee our project run as we expected.
+Our project is deposited on github for better cooperation. So all pushed commits will be automatically tested by TravisCI shortly after being pushed so that we can see the result soon. Besides unit tests, ES Linter will help us find syntax errors and incongruous code style whenever files changed. These features guarantee our project operating normally.
 
 ### BioSearch
 Type anything you want to learn about a part and press Enter, in less than one second you will get the results:
@@ -32,6 +32,7 @@ Multiple filters can also be combined to make complex query:
 ABACUS is a submodule of team USTC-Software-2016's project. ABACUS is firstly developed by professor Liu Haiyan, to enlarge the functions of Biopano. The de novo design of amino acid sequence to fold into desired structures is a way to reach a more thorough understanding of how amino acid sequences encode protein structures and to supply methods for protein engineering. To overcome limitations in current computational models, they developed a comprehensive statistical energy function for protein design with a new general strategy and verify that it can complement and rival current well-established models. They established an experimental approach which can be used to efficiently assess or improve the foldability of designed proteins. To prove it, they report four de novo proteins for different targets, all experimentally verified to the well-folded, solved solution structures for two being excellent agreement with respective design targets.[1]
 
 #### bioBLESS:
-bioBLESS is an adaption of team USTC-Software-2015's project. It is an integrated system based on Espresso
+bioBLESS is an adaption of team USTC-Software-2015's project. It is an integrated system based on Espresso, designed to construct and evaluate biological circuit. The project is also available on GitHub, which means one can download all the source code and test it. Members of team USTC-Software-2015 use TravisCI for continuous integration and coverall for coverage test at the backend, while Chai, Mocha and phantomJs assure the website is displayed as expected.
+
 
 
